@@ -54,7 +54,7 @@ export default function Home() {
           My expertise lies in driving social change through impactful campaigns informed by rigorous research, grassroots engagement, and strategic digital media utilization. I possess a diverse background as a researcher, community organizer, campaigner, and politician.
         </p>
         <p className="mb-4">
-          My notable accomplishments include the successful removal of the slaver Robert Milligan&apos;s statue from West India Quay, the reinstatement of party members' rights to select candidates in elections, and the implementation of international development projects in India with Raleigh International.
+          My notable accomplishments include the successful removal of the slaver Robert Milligan&apos;s statue from West India Quay, the reinstatement of party members&apos; rights to select candidates in elections, and the implementation of international development projects in India with Raleigh International.
         </p>
         <p className="mb-4">
           Additionally, I have conducted several capacity-building assignments in Brazil, Europe, and America for civil servants from Bangladesh.
