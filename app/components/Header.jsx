@@ -6,11 +6,11 @@ const Header = () => {
     const [isOpen, setIsOpen] = useState(false);
   
     return (
-      <header className="bg-brown-50 shadow-md">
+      <header className="bg-custom-1000 shadow-md">
         <div className="container mx-auto px-4 py-4 flex justify-between items-center">
           {/* Left Nav Links */}
-          <nav className="hidden md:flex space-x-8 text-brown-600 font-medium">
-            <Link href="/" className="hover:text-brown-900 transition duration-300">
+          <nav className="hidden md:flex space-x-8 text-white font-medium">
+            <Link href="/" className="hover:text-custom-900 transition duration-300">
               Home
             </Link>
             <Link href="/work" className="hover:text-brown-900 transition duration-300">
@@ -22,7 +22,7 @@ const Header = () => {
           </nav>
   
           {/* Center Logo */}
-          <div className="text-center text-brown-700">
+          <div className="text-center  text-white  font-sans">
             <Link href="/" className="hover:text-brown-900 transition duration-300">
                 <span className="block text-2xl font-extrabold leading-none">EHTASHAM</span>
                 <span className="block text-xl font-medium tracking-wide">HAQUE</span>
@@ -30,8 +30,8 @@ const Header = () => {
             </div>
   
           {/* Right Nav Link */}
-          <nav className="hidden md:flex space-x-8 text-brown-600 font-medium">
-            <Link href="/contact" className="hover:text-brown-900 transition duration-300">
+          <nav className="hidden md:flex space-x-8  text-white font-medium">
+            <Link href="/contact" className="hover:text-brown-900 transition duration-300 border-2 p-2 ">
               Contact
             </Link>
           </nav>
@@ -40,7 +40,7 @@ const Header = () => {
           <div className="md:hidden">
             <button onClick={() => setIsOpen(!isOpen)} className="focus:outline-none">
               <svg
-                className="w-6 h-6 text-brown-700"
+                className="w-6 h-6 text-white"
                 fill="none"
                 stroke="currentColor"
                 viewBox="0 0 24 24"
@@ -59,7 +59,7 @@ const Header = () => {
   
         {/* Mobile Menu */}
         {isOpen && (
-          <div className="md:hidden bg-brown-50 px-4 py-4">
+          <div className="md:hidden bg-white px-4 py-4">
             <Link href="/" className="block py-2 text-brown-700 hover:text-brown-900">
               Home
             </Link>
@@ -69,7 +69,7 @@ const Header = () => {
             <Link href="/blog" className="block py-2 text-brown-700 hover:text-brown-900">
               Blog
             </Link>
-            <Link href="/contact" className="block py-2 text-brown-700 hover:text-brown-900">
+            <Link href="/contact" className="block py-2 text-brown-700 hover:text-brown-900 ">
               Contact
             </Link>
           </div>

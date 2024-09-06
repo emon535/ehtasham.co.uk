@@ -11,7 +11,7 @@ export default function Home() {
        {/* Section 1: My Story with Image */}
 <section className="mb-16">
 <h2 className="text-4xl font-bold text-brown-700 mb-6">My Story</h2>
-  <div className="flex flex-col md:flex-row items-center md:items-start">
+  <div className="flex flex-col md:flex-row items-center md:items-start ">
     
   
 
@@ -26,12 +26,12 @@ export default function Home() {
         I hold a BA in International Relations (London Metropolitan University), an MA in Management (University of Westminster), and a Postgraduate Diploma in Law & Community Leadership (SOAS University of London).
       </p>
     </div>
-    <div className="mb-6 md:mb-0 md:w-1/3 -order-1">
+    <div className="mb-6 md:mb-0 md:w-1/3">
     <Image
-      className="rounded-lg shadow-lg md:order-1"
+      className="rounded-lg shadow-lg "
       src="/images/profile.jpeg"
-      width={500}
-      height={500}
+      width={400}
+      height={400}
       layout="responsive"       
 
       alt="Picture of the author"
@@ -41,7 +41,7 @@ export default function Home() {
   </div>
 </section>
       {/* Section 2: Achievements */}
-      <section className="bg-brown-50 p-10">
+      <section className="bg-brown-50 p-10 border-gray-200 border-4">
   <div className="container mx-auto px-4">
     {/* Achievements Title */}
     <h2 className="text-4xl font-bold text-brown-700 mb-8 text-center">Achievements</h2>
@@ -79,7 +79,7 @@ export default function Home() {
 
 
       {/* Section 3: Blog Post Links (Gallery) */}
-      <section>
+      <section className="mt-4">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 border-4">
           {/* Blog Post 1 */}
           <div className="border p-6 bg-white shadow-lg hover:shadow-xl transition">

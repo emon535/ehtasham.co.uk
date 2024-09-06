@@ -3,7 +3,7 @@ import React from 'react'
 const Footer = () => {
   return (
     <div><>
-    <footer className="bg-brown-700 text-white py-8">
+    <footer className="bg-custom-700 text-white py-8">
   <div className="container mx-auto px-4">
     <div className="flex flex-col md:flex-row justify-between items-center md:items-start">
       
@@ -50,7 +50,7 @@ const Footer = () => {
     </div>
 
     {/* Bottom Section: Copyright Info */}
-    <div className="mt-8 text-center text-brown-300">
+    <div className="mt-8 text-center text-white">
       &copy; 2024 EHTASHAM HAQUE. All rights reserved.
     </div>
   </div>

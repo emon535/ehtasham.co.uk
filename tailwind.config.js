@@ -7,8 +7,11 @@ module.exports = {
   ],
   theme: {
     extend: {
+      fontFamily: {
+        spring: ['Roboto', 'sans-serif',"FontSpringDemo"],
+      },
       colors: {
-        brown: {
+        custom: {
         50: '#f5f2eb',
         100: '#eaddd3',
         200: '#d4bba7',
@@ -19,9 +22,10 @@ module.exports = {
         700: '#453219',
         800: '#312311',
         900: '#20150a',
+        1000:"#3b2d2c"
       },
-        background: "var(--background)",
-        foreground: "var(--foreground)",
+        background: "#f6f3ee",
+        foreground: "#f6f3ee",
       },
     },
   },
