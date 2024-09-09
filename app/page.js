@@ -51,7 +51,7 @@ export default function Home() {
       {/* Achievement Details */}
       <div className="text-lg text-brown-600 leading-relaxed">
         <p className="mb-4">
-          My expertise lies in driving social change through impactful campaigns informed by rigorous research, grassroots engagement, and strategic digital media utilization. I possess a diverse background as a researcher, community organizer, campaigner, and politician.
+          My passion lies in driving social change through impactful campaigns informed by rigorous research, grassroots engagement, and strategic digital media utilization. I possess a diverse background as a researcher, community organizer, campaigner, and politician.
         </p>
         <p className="mb-4">
           My notable accomplishments include the successful removal of the slaver Robert Milligan&apos;s statue from West India Quay, the reinstatement of party members&apos; rights to select candidates in elections, and the implementation of international development projects in India with Raleigh International.
@@ -100,6 +100,7 @@ export default function Home() {
             <h3 className="text-2xl font-semibold text-brown-700 mb-3">Save the Whitechapel Bell Foundry</h3>
             {/* <p className="text-brown-600 mb-4">Short description of the blog post content goes here.</p> */}
             <a href="/bell" className="text-brown-700 font-medium hover:text-brown-900">Read More</a>
+
           </div>
 
           {/* Blog Post 2 */}
@@ -121,7 +122,7 @@ export default function Home() {
             <h3 className="text-2xl font-semibold text-brown-700 mb-3">Towerhamlets Labour</h3>
 
             {/* <p className="text-brown-600 mb-4">Short description of the blog post content goes here.</p> */}
-            <a href="#" className="text-brown-700 font-medium hover:text-brown-900">Read More</a>
+            <a href="/labour" className="text-brown-700 font-medium hover:text-brown-900">Read More</a>
           </div>
 
           {/* Blog Post 3 */}
@@ -144,7 +145,7 @@ export default function Home() {
             <h3 className="text-2xl font-semibold text-brown-700 mb-3">Black Lifes Matter</h3>
 
             {/* <p className="text-brown-600 mb-4">Short description of the blog post content goes here.</p> */}
-            <a href="#" className="text-brown-700 font-medium hover:text-brown-900">Read More</a>
+            <a href="blacklife" className="text-brown-700 font-medium hover:text-brown-900">Read More</a>
           </div>
         </div>
       </section>

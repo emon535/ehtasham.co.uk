@@ -13,8 +13,8 @@ const Header = () => {
             <Link href="/" className="hover:text-custom-900 transition duration-300">
               Home
             </Link>
-            <Link href="/work" className="hover:text-brown-900 transition duration-300">
-              Work
+            <Link target='_blank' href="https://www.linkedin.com/in/ehtashamhaque?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" className="hover:text-brown-900 transition duration-300">
+              Linkedin
             </Link>
             <Link href="/blog" className="hover:text-brown-900 transition duration-300">
               Blog
